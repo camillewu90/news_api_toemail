@@ -1,0 +1,9 @@
+First, execute in a terminal with zsh (Z Shell):
+
+echo 'export PASSWORD=password_var' >> ~/.zshenv
+Then, reload changes:
+
+source ~/.zshenv
+Finally, test if your new variable is set:
+
+echo $PASSWORD
